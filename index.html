@@ -8,13 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Selectores</h1>
-    <h2>Este es un selector universal</h2>
-    <h2>Este es un selector de tipo</h2>
-    <h2 class="class_h2">Este es un selector de clases</h2>
-    <h2 id="h2">Este es un selector ID</h2>
-    <h2 mamahuevo="pepe">Este es un selector por atributo</h2>
-    <h2 class="h2"><p>Este es un selector con decendientes</p></h2>
-    <h2><b> es un selector con pseudo clases</b></h2>
+<h1>Especificidad</h1>
+<p>Resumido la especifidad se trata de el nivel de jerarquia que hay al momento de añadirle un atributo a un elemento , mientras mas sea el nivel mayor importancia va a tener y pues el sistema le dara prioridad dicho nivel es : </p>
+<ol>
+<li>important</li>
+<li>estilos en linea</li>
+<li>Identificadores</li>
+<li>clases,pseudo-clases,atributos</li>
+<li>elementos, pseudo-elementos</li>
+</ol>
+<p>cuando hay dos elementos de la misma jerarquia funciona el estilo de cascada de css</p>
+<div>
+    <p>este tiene jerarquia de clases este no quedara con el rojo :c</p>
+    <p>Este igual asi que este quedara con el color azul :3 </p>
+</div>
+<div>
+    <p>Este tiene la jerarquia de ID asi que queda de azul c: </p>
+    <p>Este tiene la jerarquia de clases asi que no queda de rojo :c </p>
+</div>
 </body>
 </html>
