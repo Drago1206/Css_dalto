@@ -1,4 +1,15 @@
-div{
-    width: 50%;
-    height: 50%;
+.p{
+    color: rgb(197, 21, 9);
+}
+.p{
+    color: blue;
+    padding-bottom: 25;
+}
+
+#p1{
+    color: blue;
+}
+
+.p1{
+    color: red;
 }
