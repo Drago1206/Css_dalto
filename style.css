@@ -1,15 +1,16 @@
-.p{
-    color: rgb(197, 21, 9);
+h1{
+    text-align: center;
 }
-.p{
-    color: blue;
-    padding-bottom: 25;
+p{
+    text-align: center;
 }
-
-#p1{
-    color: blue;
+.contact-form__input{
+    color: rgb(235, 14, 14);
 }
-
-.p1{
-    color: red;
+div{
+    margin-left: 45%;
+    margin-right: 60%;
+}
+body{
+    background-color: rgb(59, 247, 247);
 }

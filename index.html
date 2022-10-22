@@ -8,21 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Especificidad</h1>
-<p>Resumido la especifidad se trata de el nivel de jerarquia que hay al momento de añadirle un atributo a un elemento , mientras mas sea el nivel mayor importancia va a tener y pues el sistema le dara prioridad dicho nivel es : </p>
-<ol>
-<li>important</li>
-<li>estilos en linea</li>
-<li>Identificadores</li>
-<li>clases,pseudo-clases,atributos</li>
-<li>elementos, pseudo-elementos</li>
-</ol>
-<p>cuando hay dos elementos de la misma jerarquia funciona el estilo de cascada de css</p>
-
-    <p class="p">este tiene jerarquia de clases este no quedara con el rojo :c</p>
-    <p class="p">Este igual asi que este quedara con el color azul :3 </p>
-
-    <p id="p1">Este tiene la jerarquia de ID asi que queda de azul c: </p>
-    <p class="p1">Este tiene la jerarquia de clases asi que no queda de rojo :c </p>
+<h1>Metologia bem</h1>
+<p>se utiliza para conocer el elemento que estamos seleccionando apartir de las clases, con este se evitan los problemas de especificidad ya que va a servir en como de cascadas de estilos...</p>
+<div class="form">
+    <input type="text" class="contact-form__input">
+</div>
+<p>Entonces como funciona como tal , dicha metologia trabaja por bloques y se inicia con el nombre del algo que especifique el primer elemento en este caso seria "part-form" lugo dos guiones bajos__luego el nombre del segundo elemento que seria input entonces quedaria como "part-form__input";En este caso sale un rectangulo que si le da click se puede ver que los datos que se le ingresan los convierte en rojo...</p>
 </body>
 </html>
