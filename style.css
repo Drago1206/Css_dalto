@@ -1,15 +1,16 @@
 
-h1{
-    font-size: 5em;
-
-}
-h2{
-    font-size: 2cm;
-}
-p{
-    font-size: 32px;
-}
 body{
     background-color: rgb(157, 238, 238);
+}
+h1{
+    font-size: 5em;
     text-align: center;
+    color: rgb(6, 51, 102);
+    font-weight: 200,rgb(82, 77, 77);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 1cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: justify;
 }
