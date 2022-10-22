@@ -1,16 +1,15 @@
+
 h1{
-    text-align: center;
+    font-size: 5em;
+
+}
+h2{
+    font-size: 2cm;
 }
 p{
-    text-align: center;
-}
-.contact-form__input{
-    color: rgb(235, 14, 14);
-}
-div{
-    margin-left: 45%;
-    margin-right: 60%;
+    font-size: 32px;
 }
 body{
-    background-color: rgb(59, 247, 247);
+    background-color: rgb(157, 238, 238);
+    text-align: center;
 }
