@@ -1,6 +1,6 @@
 .p_m{
     display: inline;
-    margin: 36%;
+    background-color: rgb(10, 99, 37);
 }
 h1{
     text-align: center;
@@ -8,10 +8,14 @@ h1{
 }
 p{
     text-align: center;
+    background-color: blueviolet;
+    margin: 10px 1em 1em 10px;
 }
 b{
-    margin-left: 43%;
+    background-color: rgb(10, 99, 37);
 }
+
+
 body{
     background-color: rgb(103, 221, 182);
 }
