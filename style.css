@@ -1,12 +1,17 @@
+.p_m{
+    display: inline;
+    margin: 36%;
+}
 h1{
-    font-size: 35px;
-    color: blue;
-    font-weight: 200,rgb(102, 100, 100);
     text-align: center;
+    font-size: 4em;
 }
 p{
-    font-size: 1cm;
+    text-align: center;
+}
+b{
+    margin-left: 43%;
 }
 body{
-    background-color: rgb(109, 224, 224);
+    background-color: rgb(103, 221, 182);
 }
