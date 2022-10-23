@@ -5,14 +5,21 @@ div{
     text-align: center;
     margin-bottom: 5em;
 }
-b{
+.c1,.c2,.c3,.c4{
     border-radius: 16px;
     padding: 2em;
-    width: 30%;
-    border: 1.5px solid black ;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
     background-color: cornflowerblue;
-    box-shadow: 2px 2px 2em black;
-    margin: 2px 36em;
+    margin-bottom: 2cm;
+    text-align: center;
+}
+.c1{
+    outline: auto;
+}
+.c4{
+    outline: auto;
 }
 
 body{
