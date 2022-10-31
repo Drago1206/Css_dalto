@@ -1,28 +1,25 @@
-h1{
-    text-align: center;
-    font-size: 4em;
+
+body{
+    background-color: rgb(103, 221, 182);
 }
 .div{
     text-align: center;
-    border: 3px  solid black;
-}
-.b1,.b2,.b3{
-    display: inline-block;
-    width: 10em;
-    height: 2em;
     border: 3px solid black;
-    margin-left:12em ;
-    text-align: center;
-    background-color: rgb(186, 240, 222);
 }
-.b4,.b5,.b6{
-    width: 10em;
-    height: 2em;
+.d1,.d2,.d3{
     border: 3px solid black;
-    text-align: center;
-    background-color: rgb(186, 240, 222);
-    margin: 12em auto;
+    width: 350px;
+    height: 320px;
+    background-color: rgb(184, 191, 197);
+    margin-left: 28em;
+    margin-top:20px;
 }
-body{
-    background-color: rgb(103, 221, 182);
+.d1{
+    overflow: auto;
+}
+.d2{
+    overflow: hidden;
+}
+.d3{
+    overflow: scroll;
 }
