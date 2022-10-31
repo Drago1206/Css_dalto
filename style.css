@@ -1,25 +1,43 @@
 h1{
     text-align: center;
+    font-size: 4em;
 }
-div{
+.div{
+    border: 2px solid black;
     text-align: center;
-    margin-bottom: 5em;
+    margin: 23px;
 }
-.c1,.c2,.c3,.c4{
-    border-radius: 16px;
-    padding: 2em;
-    width: 100px;
-    height: 50px;
-    display: inline-block;
-    background-color: cornflowerblue;
-    margin-bottom: 2cm;
+.caja1,.caja2,.caja3,.caja4{
+    border: 3px solid black;
+    height: 450px;
+    width: 450px;
+    margin: 35px auto;
+}
+.caja1{
+    position: static;
+    background-color: aqua;
     text-align: center;
+    padding-top: 14em;
 }
-.c1{
-    outline: auto;
+.caja2{
+    position: relative;
+    left: 45px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 14em;
 }
-.c4{
-    outline: auto;
+.caja3{
+    position: fixed;
+    bottom:  65px;
+    left: 39em;
+    background-color: rgb(175, 103, 241);
+}
+.caja4{
+    position: sticky;
+    background-color: blanchedalmond;
+    opacity: 65%;
+    bottom:  29em;
+    left: 28em;
 }
 
 body{
