@@ -2,22 +2,42 @@
 body{
     background-color: rgb(103, 221, 182);
 }
-.d1{
-    text-align: center;
-    margin-bottom:12px ;
+.p3::first-line{
+    color: blue;
+    font-size: 1cm;
 }
-.d3{
-    width: 150px auto;
-    height: 350px;
-    padding: 12px;
-    
+.p2::first-letter{
+    color: blue;
+    font-size: 1cm;
 
 }
-    
-img{
-    float: right;
-    margin-right: 10px;
-    border: 3px solid black;
-    margin-bottom: 4em;
-    width: 500px;
+form{
+    margin: 100px auto;
+    display: block;
+    background-color: rgb(88, 88, 212);
+    padding:30px;
+    width: 50%;
+}
+input{
+    padding: 6px;
+    width: 100%;
+}
+input::placeholder{
+    color: blueviolet;
+    font-size: 1em;
+}
+input::selection{
+    color: rgb(32, 3, 59);
+    background-color: rgb(132, 7, 250);
+}
+b::before{
+    content: "valemos monda :3 ";
+    color: rgb(68, 68, 116);
+    background-color: rgb(125, 125, 240);
+
+}
+b::after{
+    content: " pero animos :3";
+    color: rgb(146, 10, 10);
+    background-color: rgb(250, 56, 56);
 }
