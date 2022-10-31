@@ -2,24 +2,22 @@
 body{
     background-color: rgb(103, 221, 182);
 }
-.div{
-    text-align: center;
-    border: 3px solid black;
-}
-.d1,.d2,.d3{
-    border: 3px solid black;
-    width: 350px;
-    height: 320px;
-    background-color: rgb(184, 191, 197);
-    margin-left: 28em;
-    margin-top:20px;
-}
 .d1{
-    overflow: auto;
-}
-.d2{
-    overflow: hidden;
+    text-align: center;
+    margin-bottom:12px ;
 }
 .d3{
-    overflow: scroll;
+    width: 150px auto;
+    height: 350px;
+    padding: 12px;
+    
+
+}
+    
+img{
+    float: right;
+    margin-right: 10px;
+    border: 3px solid black;
+    margin-bottom: 4em;
+    width: 500px;
 }
