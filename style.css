@@ -2,11 +2,19 @@
 body{
     background-color: rgb(103, 221, 182);
 }
-.eldiv img{
-    height: 350px; 
-    width: 350px;
-    border: 2px red solid;
-    object-fit: cover ;
-    object-position: 4em;
-    /* contain, cover,none ,scale-down */
+h1,p{
+    text-align: center;
+}
+.caja{
+    margin: 45px;
+    width: 200px;
+    height: 200px;
+    margin-left:40%;
+    text-align: center;
+    border: 5px solid red;
+    background-color: rgb(135, 164, 226);
+    cursor: crosshair;
+}
+.caja:active{
+    cursor: copy;
 }
