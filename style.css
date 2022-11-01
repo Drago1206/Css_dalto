@@ -2,19 +2,21 @@
 body{
     background-color: rgb(103, 221, 182);
 }
-h1,p{
-    text-align: center;
+div{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background-color: rgb(34, 87, 87);
 }
-.caja{
-    margin: 45px;
-    width: 200px;
-    height: 200px;
-    margin-left:40%;
-    text-align: center;
-    border: 5px solid red;
-    background-color: rgb(135, 164, 226);
-    cursor: crosshair;
+h1{
+    font-size: 24px;
 }
-.caja:active{
-    cursor: copy;
+.caja2{
+    background-color: greenyellow;
+}
+@media only screen and (max-width:800px){
+    div{
+        display: block;
+        width: 100%;
+    }
 }
